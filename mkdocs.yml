@@ -1,0 +1,56 @@
+site_name: באלי לישראלים
+copyright: Copyright &copy; 2022 2Bali.co.il
+#
+theme:
+  name: material
+  logo: assets/img/logo-welcomebacktobali.png
+  favicon: assets/img/favicon.png
+  language: he
+  features:
+   # - navigation.tabs
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - toc.follow
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+  font:
+    text: Assistant
+  palette: 
+    scheme: default
+    primary: cyan
+    accent: deep orange
+#
+extra_css:
+  - stylesheets/extra.css
+#
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+  social:
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/squidfunk
+      name: squidfunk on Twitter
+#  analytics: 
+#    provider: google
+#    property: G-XXXXXXXXXX
+#    feedback:
+#      title: Was this page helpful?
+#      ratings:
+#        - icon: material/emoticon-happy-outline
+#          name: This page was helpful
+#          data: 1
+
+#
+plugins:
+  - search
+  - tags
+  
